@@ -4,7 +4,19 @@
 
         <h2>About me</h2>
 
-        <p>BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla</p>
+        <p>I have been involving several different domains of the IT industry since
+2009, such as desktop application (testing AIR, Flash at Adobe),
+enterprise level web service/application (testing cloud computing at
+IBM),  web application testing (testing web applications at Catalyst IT). Besides, I have experience on automation testing for
+more than 5 years, which covers rich desktop application testing
+(STAF/Python), web application testing (Selenium/Java/Robotframework/Python/Cucumber BDD) and REST API
+testing (Tempest/Python/REST-Assured/Java).</p>
+
+	<p>I came from Beijing, China. Our family moved to New Zealand since 2014.
+I love the Wellington city for its arts, nice people and nature
+environment, but the weather. If you are interested in China culture or
+you have planing to travel China, please don't hesitate to contact with me if
+you have any question.</p>
 
         <h2>Contact</h2>
 
@@ -61,6 +73,19 @@
             </div>
             <div class="panel-body">
                 {% for keyword in site.skill_web_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_test_automation_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Test Automation Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_test_automation_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
