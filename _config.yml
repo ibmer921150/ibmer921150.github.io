@@ -1,1 +1,90 @@
-theme: jekyllBasicBlog
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: I'm Yu Liu # ex. I m Chuan
+name: Yu Liu # ex. DONGChuan
+email: liuyu342@gmail.com
+location: New Zealand # ex. Nice, France
+company: Catalyst IT
+company_url: https://www.catalyst.net.nz
+github_url: https://github.com/ibmer921150 # ex. https://github.com/DONGChuan
+description: Test Automation
+favicon: favicon.png # Image must be in assets/images
+repository: ibmer921150/ibmer921150.github.io # ex. DONGChuan/DONGChuan.github.io
+
+# The base hostname & protocol for your site
+# For local test, please use http://localhost:4000
+# For production, use your github page url. ex. http://dongchuan.github.io
+url: http://localhost:4000
+
+## Gem
+gems:
+  - jekyll-paginate
+  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+source:      .
+destination: ./_site
+
+quiet:    false
+defaults: []
+
+kramdown:
+  input: GFM
+  enable_coderay: true
+
+# Disque
+disque: httpibmer921150githubio.disqus.com # ex. httpdongchuangithubio.disqus.com
+
+# Pagination
+paginate: 10
+paginate_path: 'page:num'
+
+# Navigation. If you do not like these modules, just remove them :D
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: /open-source
+    label: Open-Source
+
+  -
+    href: /blog
+    label: Blog
+
+  -
+    href: /bookmark
+    label: Bookmark
+
+  -
+    href: /about
+    label: About
+
+# Sidebar to show popular repo
+side_bar_repo_limit: 5 # Number of repos to show
+
+# Google Analytics
+analytics :
+  provider : google
+  google :
+      tracking_id : 'tracking_id'  # ex. UA-72165600-X
+
+
+# For about.html. Fell free to create your own!
+skill_software_keywords: [Java, Python, MySQL, Jenkins, Gitlab CI]
+skill_test_automation_keywords: [Selenium, Appium, Robotframework, Cucumber, JMeter]
