@@ -47,7 +47,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: httpibmer921150githubio.disqus.com # ex. httpdongchuangithubio.disqus.com
+disque: ibmer921150.github.io # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
