@@ -67,9 +67,9 @@ navs:
     href: /blog
     label: Blog
 
-  -
-    href: /bookmark
-    label: Bookmark
+#  -
+#    href: /bookmark
+#    label: Bookmark
 
   -
     href: /about
@@ -88,3 +88,4 @@ analytics :
 # For about.html. Fell free to create your own!
 skill_software_keywords: [Java, Python, MySQL, Jenkins, Gitlab CI]
 skill_test_automation_keywords: [Selenium, Appium, Robotframework, Cucumber, JMeter]
+
