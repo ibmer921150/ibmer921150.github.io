@@ -5,7 +5,7 @@ category: robotframework
 tags: [automation, robotframework]
 ---
 
-# Robot Framework Installation on Ubuntu
+## Robot Framework Installation on Ubuntu
 
 Generally robot framework can be installed on any platforms. This blog will be description how to install Robot on Linux Ubuntu.
 
