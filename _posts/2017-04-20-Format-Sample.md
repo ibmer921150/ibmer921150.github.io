@@ -1,10 +1,18 @@
 Format Sample
 
+---
+layout: post
+title: Robotframework installation on ubuntu
+category: robotframework
+tags: [automation, robotframework]
+---
+
+
 # head1
 
-## head2
+## head2 (right)
 
-### head3
+### head3 (right)
 
 #### head4
 
