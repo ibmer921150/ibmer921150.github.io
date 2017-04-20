@@ -1,0 +1,62 @@
+---
+layout: post
+title: Robotframework installation on ubuntu
+category: robotframework
+tags: [automation, robotframework]
+---
+
+# Robot Framework Installation on Ubuntu
+
+Generally robot framework can be installed on any platforms. This blog will be description how to install Robot on Linux Ubuntu.
+
+### Steps
+
+**Step 1:** Install Python
+
+It has been installed on Linux as default. 
+
+**Step 2:** Verify Python version
+
+`python --version`
+
+Command result will be
+
+`Python 2.7.6`
+
+**Step 3:** Install robotframework
+
+`sudo pip install robotframework`
+
+**Step 4: **Verify robotframework installation
+
+`robot --version`
+
+Command result will be
+
+`Robot Framework 3.0 (Python 2.7.6 on linux2`
+
+**Step 5:** Install Selenium2Library
+
+`sudo pip install robotframework-selenium2library`
+
+**Step 6:** Install Selenium
+
+Since Selenium2Library has some dependencies for selenium library, you need to install selenium library. The easy way of installing selenium library is to use pip. You can use the following command to install selenium.
+
+`sudo pip install -U selenium`
+
+**Step 7:** Install wxpython
+
+RIDE is a light-weight and intuitive editor for Robot Framework test case files. Since RIDE uses wxpython 2.8, you need to install the package as well. RIDE does not yet support Python 3.
+
+To install wxpython 2.8 or later version, visit the [wxpython download page](http://wxpython.org/download.php#msw)  and download the version depending on your OS. Please note that the package has 32 bit and 64 bit, so you need to install the corresponding package depending on your operating system version. 
+
+**Step 8:** Install robotframework IDE (RIDE)
+
+`sudo pip install robotframework-ride`
+
+**Step 9:** Verify RIDE installation
+
+`ride.py`
+
+The RIDE window will pop up.
